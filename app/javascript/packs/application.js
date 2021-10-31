@@ -9,8 +9,8 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
-import "@fortawesome/fontawesome-free/css/all"
-
+// import "@fortawesome/fontawesome-free/css/all"
+import 'bootstrap-icons/font/bootstrap-icons.css'
 window.jQuery = $;
 window.$ = $;
 require("stylesheets/application.scss")
