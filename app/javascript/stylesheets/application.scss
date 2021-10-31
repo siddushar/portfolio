@@ -1,0 +1,53 @@
+.front-page {
+  height: 99vh;
+  width: 100%;
+  background: url(/assets/bg2.jpg) no-repeat right center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.front-page .title {
+  font-size: 80px;
+  font-weight: 200;
+}
+
+.contact-me {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #212121;
+  color: white;
+}
+
+.quotes {
+  display: none;
+  font-weight: 200;
+}
+
+.experience-skills {
+  background-color: #6c92c5;
+}
+
+.box {
+  height: 100%;
+  -webkit-transition: box-shadow 0.5s, background 0.5s, color 0.5s;
+  transition: box-shadow 0.5s, background 0.5s, color 0.5s;
+  &:hover {
+    -moz-box-shadow: 0 0 10px grey;
+    -webkit-box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px grey;
+
+    background: #FEDC37;
+    color: black;
+  }
+}
+
+.footer i{
+  color: white;
+}
