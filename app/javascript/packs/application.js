@@ -10,9 +10,10 @@ import "channels"
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
 import "@fortawesome/fontawesome-free/css/all"
-require("stylesheets/application.scss")
+
 window.jQuery = $;
 window.$ = $;
+require("stylesheets/application.scss")
 
 Rails.start()
 Turbolinks.start()
